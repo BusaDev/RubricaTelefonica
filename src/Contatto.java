@@ -12,10 +12,10 @@ public class Contatto implements Serializable {
     private String numeroTelefonico;
     private String indirizzo;
     private String citta;
-    private String provincia;//DEVE TROVARLO SOLO
-    private String paese;//DEVE TROVARLO SOLO
-    private String cap;//DEVE TROVARLO SOLO
-    private String prefisso;//DEVE TROVARLO SOLO
+    private String provincia;
+    private String paese;
+    private String cap;
+    private String prefisso;
 
     private ZonedDateTime dataCreazione;//DEVE CREARSI AUTOMATICAMENTE QUANDO SI CREA IL NUOVO CONTATTO
 

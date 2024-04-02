@@ -13,7 +13,6 @@ public class Main {
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
             rubrica = (Rubrica) objectInputStream.readObject();
         }catch(FileNotFoundException e){
-
         }catch (InvalidClassException e){
             System.out.println("Errore File Rubrica corrotto, il file verrà ripristinato");
             File file = new File("src/Files/rubrica.ser");
